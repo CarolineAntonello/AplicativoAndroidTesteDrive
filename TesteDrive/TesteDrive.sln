@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteDrive", "TesteDrive\TesteDrive.csproj", "{4BBFB994-363F-4E59-9CE4-500F46EFD937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BBFB994-363F-4E59-9CE4-500F46EFD937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBFB994-363F-4E59-9CE4-500F46EFD937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBFB994-363F-4E59-9CE4-500F46EFD937}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4BBFB994-363F-4E59-9CE4-500F46EFD937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBFB994-363F-4E59-9CE4-500F46EFD937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBFB994-363F-4E59-9CE4-500F46EFD937}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B350B57-9FDC-4E65-A591-A1B7783FD576}
+	EndGlobalSection
+EndGlobal
