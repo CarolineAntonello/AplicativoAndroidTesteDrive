@@ -4,53 +4,20 @@
              xmlns:local="clr-namespace:TesteDrive"
              x:Class="TesteDrive.MainPage">
 
-    <!--<Grid VerticalOptions="Start">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+    <ListView x:Name="ListViewVeiculos" ItemsSource="{Binding Veiculos}" Margin="25"
+              ItemTapped="ListViewVeiculos_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding Nome}" FontSize="20" VerticalTextAlignment="Center"></Label>
+                        <Label Text=" - "  VerticalTextAlignment="Center"></Label>
+                        <Label Text="{Binding PrecoFormatado}" FontSize="18" FontAttributes="Bold"  VerticalTextAlignment="Center"></Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
 
-        </Grid.RowDefinitions>
-
-        <Label Grid.Row="0" Grid.Column="0" Text="Azera V6"/>
-        <Label Grid.Row="0" Grid.Column="1" Text="R$60.000,00"/>
-        <Label Grid.Row="1" Grid.Column="0" Text="Fiesta 2.0"/>
-        <Label Grid.Row="1" Grid.Column="1" Text="R$50.000,00"/>
-        <Label Grid.Row="2" Grid.Column="0" Text="HB20 S"/>
-        <Label Grid.Row="2" Grid.Column="1" Text="R$40.000,00"/>
-        <Label Grid.Row="3" Grid.Column="0" Text="Prisma LZT"/>
-        <Label Grid.Row="3" Grid.Column="1" Text="R$60.000,00"/>
-        <Label Grid.Row="4" Grid.Column="0" Text="Saveiro Cross"/>
-        <Label Grid.Row="4" Grid.Column="1" Text="R$35.000,00"/>
-        <Label Grid.Row="5" Grid.Column="0" Text="Amarock"/>
-        <Label Grid.Row="5" Grid.Column="1" Text="R$105.000,00"/>
-        <Label Grid.Row="6" Grid.Column="0" Text="S10"/>
-        <Label Grid.Row="6" Grid.Column="1" Text="R$120.000,00"/>
-        <Label Grid.Row="7" Grid.Column="0" Text="Golf esport"/>
-        <Label Grid.Row="7" Grid.Column="1" Text="R$90.000,00"/>
-        <Label Grid.Row="8" Grid.Column="0" Text="Classic"/>
-        <Label Grid.Row="8" Grid.Column="1" Text="R$28.000,00"/>
-        <Label Grid.Row="9" Grid.Column="0" Text="Strada"/>
-        <Label Grid.Row="9" Grid.Column="1" Text="R$40.000,00"/>
-        <Label Grid.Row="10" Grid.Column="0" Text="Sonic"/>
-        <Label Grid.Row="10" Grid.Column="1" Text="R$35.000,00"/>
-        
-    </Grid>-->
-
-    <ListView x:Name="ListViewVeiculos">
-        
     </ListView>
 
 </ContentPage>
