@@ -14,6 +14,7 @@ namespace TesteDrive
 			InitializeComponent();
 
 			MainPage = new NavigationPage(new ListagemView());
+
 		}
 
 		protected override void OnStart ()

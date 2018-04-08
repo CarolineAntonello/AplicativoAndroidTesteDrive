@@ -19,6 +19,7 @@ namespace TesteDrive.Views
 			InitializeComponent ();
             this.Veiculo = veiculo;
             this.BindingContext = this;
+
 		}
 	}
 }
