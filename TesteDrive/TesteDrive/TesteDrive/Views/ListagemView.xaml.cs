@@ -34,13 +34,13 @@ namespace TesteDrive.Views
                 new Veiculo{Nome = "Golf esport", Preco = 90000},
                 new Veiculo{Nome = "Strada", Preco = 45000},
                 new Veiculo{Nome = "Classic", Preco = 30000},
-                new Veiculo{Nome = "Prisma LZT", Preco = 60000},
-                new Veiculo{Nome = "Saveiro Cross", Preco = 40000},
-                new Veiculo{Nome = "Amarock", Preco = 115000},
-                new Veiculo{Nome = "S10", Preco = 120000},
-                new Veiculo{Nome = "Golf esport", Preco = 90000},
-                new Veiculo{Nome = "Strada", Preco = 45000},
-                new Veiculo{Nome = "Classic", Preco = 30000}
+                new Veiculo{Nome = "Gol 1.6", Preco = 40000},
+                new Veiculo{Nome = "Montana", Preco = 45000},
+                new Veiculo{Nome = "Focus", Preco = 60000},
+                new Veiculo{Nome = "Ford K", Preco = 30000},
+                new Veiculo{Nome = "Onix", Preco = 40000},
+                new Veiculo{Nome = "Up", Preco = 38000},
+                new Veiculo{Nome = "Renault Alaskan", Preco = 150000}
             };
 
             this.BindingContext = this;

@@ -10,7 +10,8 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>-->
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+    <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill">
+        <Image Source="teste-drive.png"/>
         <Image Source="images-star-wars-characters-clipart.gif"/>
     </StackLayout>
 </ContentPage>
