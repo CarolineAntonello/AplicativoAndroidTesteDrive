@@ -7,7 +7,7 @@
     <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill">
         <!--<Image Source="concessionaria.jpg"/>-->
     
-    <ListView x:Name="ListViewVeiculos" ItemsSource="{Binding Veiculos}" Margin="25"
+    <ListView x:Name="ListViewVeiculos" ItemsSource="{Binding Veiculos}" Margin="25" 
               ItemTapped="ListViewVeiculos_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
